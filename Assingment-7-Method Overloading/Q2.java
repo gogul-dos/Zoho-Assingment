@@ -3,10 +3,10 @@ class Person{
     int age;
     String address;
     public Person(String name) {
-        this(name,20,"Chennai");
+        this(name,0,"Unknown");
     }
     public Person(String name,int age) {
-        this(name,age,"Chennai");
+        this(name,age,"Unknown");
     }
     public Person(String name, int age, String address) {
         this.name = name;
