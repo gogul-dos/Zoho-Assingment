@@ -43,15 +43,17 @@ class MathOperations{
         return a*b;
     }
 
-    public float divide(float a, float b) {
+    private float divide(float a, float b) {
         return a/b;
     }
+    
 
 }
 
 
-public class Q1{
+public class Q1 extends MathOperations{
     public static void main(String[] args) {
+        
         MathOperations m = new MathOperations();
         System.out.println(m.add(1,2));
         System.out.println(m.add(2.2,2));
