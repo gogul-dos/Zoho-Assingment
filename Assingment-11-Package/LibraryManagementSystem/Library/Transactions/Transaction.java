@@ -15,6 +15,7 @@ public class Transaction {
     public void issueBook() {
         if (book.isAvailable()) {
             book.issue();
+            member.memberDetails();
             System.out.println(member + " issued " + book);
         } else {
             System.out.println(book + " is already issued.");
